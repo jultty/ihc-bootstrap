@@ -1,0 +1,30 @@
+.bg-teal {
+    background-color: teal;
+    border: 1px solid #fff;
+    height: 50px;
+    color: white;
+}
+.bg-orangered {
+    background-color: orangered;
+    border: 1px solid #fff;
+    height: 50px;
+    color: white;
+}
+
+body {
+    padding-top: 3.5rem;
+  }
+
+.icone-inline {
+    height: 18px;
+}
+
+  @media (max-width: 470px) {
+    h1.display-3 {
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      margin-top: 20px;
+    }
+}

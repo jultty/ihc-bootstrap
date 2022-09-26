@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <title>Dados climáticos comparados</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="row navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand ml-4" href="#">🌦️</a>
+            <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#fontes">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="fontes">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link ml-2" href="#">Início</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle ml-2" href="#" data-toggle="dropdown">Fontes</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">AccuWeather</a>
+                        <a class="dropdown-item" href="#">Climatempo</a>
+                        <a class="dropdown-item" href="#">CPTEC (INPE)</a>          
+                        <a class="dropdown-item" href="#">INMET</a>
+                        <a class="dropdown-item" href="#">IPMET</a>
+                        <a class="dropdown-item" href="#">OpenWeatherMap</a>
+                    </div>
+                  </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 ml-3 mr-4">
+                  <input class="form-control mr-sm-2" type="text" placeholder="Busca">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Busca</button>
+                </form>
+              </div>
+        </nav>
+        <div class="jumbotron">
+            <div class="container">
+            <h1 class="display-3">Dados climáticos comparados</h1>
+            <p>Encontre dados comparados das principais fontes de informações climáticas e saiba qual é a melhor para a sua região.</p>
+            <button class="btn btn-primary btn-lg" type="button" data-toggle="collapse" data-target="#saiba-mais-collapse" aria-expanded="false" aria-controls="collapseExample">
+                Saiba mais &raquo;
+            </button>
+            </p>
+            <div class="collapse" id="saiba-mais-collapse">
+            <div class="card card-body">
+                <p>Compilações e sobreposições de dados de temperatura, chuva e intensidade dos ventos de diferentes empresas e institutos de meteorologia e pesquisa em todo o Brasil para que você possa tomar a melhor decisão.</p>
+            </div>
+            </div>  
+            </div>
+            <p>
+
+        </div>
+        
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <h2 class="mt-3">Temperatura</h2>
+                <p>Veja quais foram os valores medidos para temperaturas mínimas e máximas.</p>
+                <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">Ver detalhes &raquo;</button>
+                <div class="col">
+                  <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <div class="card card-body mt-3">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                      <button class="btn btn-primary mt-3" type="button" >Visualizar dados</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <h2 class="mt-3">Chuva</h2>
+                <p>Consulte dados comparados de precipitação e probabilidade de chuvas.</p>
+                <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Ver detalhes &raquo;</button>
+                <div class="col">
+                  <div class="collapse multi-collapse" id="multiCollapseExample2">
+                    <div class="card card-body mt-3">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                      <button class="btn btn-primary mt-3" type="button" >Visualizar dados</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <h2 class="mt-3">Ventos</h2>
+                <p>Compare a velocidade e direção dos ventos de diferentes fontes.</p>
+                <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Ver detalhes &raquo;</button>
+                <div class="col">
+                  <div class="collapse multi-collapse" id="multiCollapseExample3">
+                    <div class="card card-body mt-3">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                      <button class="btn btn-primary mt-3" type="button" >Visualizar dados</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+              </div>
+        
+            <hr>
+        
+          </div> <!-- /container -->
+        
+        </main>
+        
+        <footer class="container text-right">
+          <p><a href="https://github.com/jultty"><img class="icone-inline" src="assets/img/github.png"> juno takano</a> 2022 &bullet; feito no <a href="https://bri.ifsp.edu.br"><img class="icone-inline" src="assets/img/if.ico"> IFSP Birigui</a> com <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/"><img class="icone-inline" src="assets/img/bootstrap.png"> Bootstrap 4.1.3</a></p>
+        </footer>
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>
